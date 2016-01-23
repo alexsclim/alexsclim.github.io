@@ -22,7 +22,8 @@
 				<div class="inner">
 					<span class="icon major fa-code"></span>
 					<h1>Alexander Lim</h1>
-					<p>Software Engineer | Computer Science | Commerce Minor</p>
+          <span class="element"></span>
+<!-- 					<p>Software Engineer | Computer Science | Commerce Minor</p> -->
 					<br>
 					<ul class="icons">
 						<li><a href="https://github.com/alexsclim" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
@@ -67,6 +68,22 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+      <script src="assets/js/typed.js"></script>
+      <script>
+      <script src="jquery.js"></script>
+      <script src="typed.js"></script>
+      <script>
+          $(function(){
+              $(".element").typed({
+                  strings: ["Software Engineer", "Computer Science", "Commerce Minor"],
+                  typeSpeed: 25,
+                  backSpeed: 25,
+                  startDelay: 2,
+                  backDelay: 500,
+                  loop: true,
+                  showCursor: true
+              });
+          });
+      </script>
 	</body>
 </html>
