@@ -410,7 +410,7 @@
 
 $(function(){
     $(".element").typed({
-        strings: ["Software Engineer^700", "Computer Science^700", "Full-Stack Developer^700"],
+        strings: ["Software Engineer^700", "Teaching Assistant^700", "Full Stack Developer^700"],
         typeSpeed: 50,
         backSpeed: 35,
         startDelay: 2,
