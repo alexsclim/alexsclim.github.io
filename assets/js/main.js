@@ -413,7 +413,7 @@ $(function(){
         strings: ["Software Engineer^700", "Teaching Assistant^700", "Stock Market Enthusiast^700"],
         typeSpeed: 50,
         backSpeed: 35,
-        startDelay: 2,
+        startDelay: 3,
         backDelay: 500,
         loop: true,
         showCursor: true
