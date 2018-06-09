@@ -410,7 +410,7 @@
 
 $(function(){
     $(".element").typed({
-        strings: ["Software Engineer^700", "Teaching Assistant^700", "Stock Market Enthusiast^700"],
+        strings: ["Software Engineer^700", "Traveller^700", "Stock Market Enthusiast^700"],
         typeSpeed: 50,
         backSpeed: 35,
         startDelay: 3,
